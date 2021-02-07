@@ -25,7 +25,7 @@ def get_sentiments_report():
           table_name = "2020_seg_sentiment_content"
           # test_data
           # df = pd.read_excel(os.path.join(os.getcwd(), 'test/sentiment_test/sentiment_data_source/input/seg_tea_hotspot.xlsx'))
-          sql_cmd ='''select * from {} where pubtime between "{}" and "{}" and source !="烟台市人民政府" '''.format(table_name, start, end)  
+          sql_cmd ='''select * from {} where pubtime between "{}" and "{}" '''.format(table_name, start, end)  
           df = get_data_from_sql(sql_cmd)
           if not df.empty:
                result = sentiment_report(df, start, end)
