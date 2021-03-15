@@ -17,8 +17,8 @@ nohup python3 text_pre_pro.py >/dev/null 2>&1 &
 nohup python3 report_cache.py >/dev/null 2>&1 &
 
 数据库 
-mysql_host = "198.18.69.1"
-mysql_port = “30052”
+mysql_host = "0.0.0.0 "
+mysql_port = “9001”
 
 价格指数原表:
 零售和产地: bd_fruit_price 关联  bd_fruit_price_detail b
