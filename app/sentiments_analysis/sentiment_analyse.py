@@ -13,7 +13,7 @@ from app.sentiments_analysis.sentiments import run_score, emotion_words, Media_c
 from app.sql_connect.sql_connect import get_data_from_sql, find_add_data, del_error_data, to_database
 import schedule
 from app.sentiments_analysis.sentiment_report import Parameter
-from app.sentiments_analysis.Early_warning import  pre_warning
+from app.sentiments_analysis.early_warning import  pre_warning
 import time
 from app.TRlogger import logger
 
