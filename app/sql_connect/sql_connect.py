@@ -9,7 +9,7 @@ import re
 def table_exists(table_name):
     connect = pymysql.connect(host="127.0.0.1",
                               user="root",
-                              password="yc@szyj#*2018yj",
+                              password="1234",
                               port=3306,                   
                               db ="yt_apple_bigdata",
                               charset = 'utf8')   
